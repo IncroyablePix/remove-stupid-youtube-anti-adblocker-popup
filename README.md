@@ -18,7 +18,7 @@ First off, you need to install the Tampermonkey add-on to your browser :
 ![Tampermonkey script menu](./img/tampermonkey1.png)
 
 ### Paste the script
-Into the editor, paste the script located [in this repo](https://github.com/IncroyablePix/remove-stupid-youtube-anti-adblocker-popup/remove-anti-adblocker-popup.js).
+Into the editor, paste the script located [in this repo](https://github.com/IncroyablePix/remove-stupid-youtube-anti-adblocker-popup/blob/master/remove-anti-adblocker-popup.js).
 
 After it was pasted, hit **CTRL + S** in order to save the script into Tampermonkey.
 
