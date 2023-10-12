@@ -34,19 +34,10 @@
 
 	function removeNode(node) {
 		node.remove();
-	}
-
-	function preservePlayingState() {
         const video = document.querySelector(".video-stream");
-		video?.addEventListener("pause", event => {
-			console.log(event);
-			console.log("Video paused");
-			
-			video.play();
-		});
+        video?.play();
 	}
 
 	waitForElement("ytd-popup-container").then(removeNode);
 	waitForElement("tp-yt-iron-overlay-backdrop").then(removeNode);
-	preservePlayingState();
 })();
